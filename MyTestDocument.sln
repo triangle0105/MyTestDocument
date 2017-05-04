@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF_Test", "WCF_Test", "{8523262F-8652-4F87-A68D-7F81A98308A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{B3838572-1E00-4807-A18B-56B4F00241B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{FD51CE44-50C9-484A-AE56-5E952B52D207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hosting", "Hosting\Hosting.csproj", "{C2B1346B-459F-4AFD-8D5B-5853A95BEEA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{6E769244-7AEA-4516-9916-BF1C7B49F81B}"
+	ProjectSection(SolutionItems) = preProject
+		WCF.txt = WCF.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3838572-1E00-4807-A18B-56B4F00241B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3838572-1E00-4807-A18B-56B4F00241B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3838572-1E00-4807-A18B-56B4F00241B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3838572-1E00-4807-A18B-56B4F00241B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD51CE44-50C9-484A-AE56-5E952B52D207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD51CE44-50C9-484A-AE56-5E952B52D207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD51CE44-50C9-484A-AE56-5E952B52D207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD51CE44-50C9-484A-AE56-5E952B52D207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B1346B-459F-4AFD-8D5B-5853A95BEEA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B1346B-459F-4AFD-8D5B-5853A95BEEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B1346B-459F-4AFD-8D5B-5853A95BEEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B1346B-459F-4AFD-8D5B-5853A95BEEA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3838572-1E00-4807-A18B-56B4F00241B6} = {8523262F-8652-4F87-A68D-7F81A98308A6}
+		{FD51CE44-50C9-484A-AE56-5E952B52D207} = {8523262F-8652-4F87-A68D-7F81A98308A6}
+		{C2B1346B-459F-4AFD-8D5B-5853A95BEEA6} = {8523262F-8652-4F87-A68D-7F81A98308A6}
+		{6E769244-7AEA-4516-9916-BF1C7B49F81B} = {8523262F-8652-4F87-A68D-7F81A98308A6}
+	EndGlobalSection
+EndGlobal
